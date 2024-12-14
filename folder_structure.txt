@@ -1,0 +1,18 @@
+POMFramwork
+    Configurations
+        TestData.py
+
+    Logs
+    Pages
+        BasePage.py
+        HomePage.py
+        LoginPage.py
+        MenPage.py
+    Reports
+    Screenshots
+    TestData
+    Tests
+        conftest.py
+        test_end2end.py
+        test_home.py
+        test_login.py

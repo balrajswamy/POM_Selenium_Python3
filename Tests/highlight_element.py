@@ -12,6 +12,7 @@ def highlight_element(driver, element, duration=6, color="yellow", border="2px s
     time.sleep(duration)
     # Revert the style to its original
     driver.execute_script(f"arguments[0].style='{original_style}';", element)
+    time.sleep(duration)
 
 # Example usage
 driver = webdriver.Chrome()  # Use the appropriate driver for your browser
